@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background: url('/public/capa.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-footer {
+  margin-top: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.carousel {
+width: 700px; /* Tamanho fixo do carrossel */
+margin: 0 auto; /* Centraliza o carrossel na página */
+}
+
+.col-md-4 {
+margin-bottom: 20px; /* Adiciona o espaçamento entre as linhas de cards */
+}
