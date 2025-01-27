@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .hero {
   background: url('/public/capa.jpg') no-repeat center center;
   background-size: cover;
@@ -13,8 +14,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  
 }
 
 .whatsapp-button {
@@ -36,19 +35,32 @@
   height: 100%;
 }
 
-.card-footer {
-  margin-top: auto;
-}
-
 .hidden {
   display: none;
 }
 
 .carousel {
-width: 700px; /* Tamanho fixo do carrossel */
-margin: 0 auto; /* Centraliza o carrossel na página */
+  width: 700px;
+  margin: 0 auto;
 }
 
 .col-md-4 {
-margin-bottom: 20px; /* Adiciona o espaçamento entre as linhas de cards */
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .whatsapp-button {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  
 }

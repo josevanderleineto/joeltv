@@ -9,7 +9,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/style.css" />
-    <link rel="icon" href="/public/tv-television-svgrepo-com.svg" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="/public/tv-television-svgrepo-com.svg"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <!-- Hero Section -->
@@ -24,16 +28,24 @@
     <!-- Sobre Mim Section -->
     <section id="about" class="py-5 bg-light">
       <div class="container">
-      <h2 class="text-center mb-4">Sobre Mim</h2>
-      <div class="row">
-        <div class="col-md-6">
-        <p style="font-size: 1.8rem;">Sou Joel, especialista em manutenção de TVs e venda de acessórios. Com anos de experiência, ofereço serviços rápidos e eficientes para todos os tipos de TVs. Além disso, vendo diversos acessórios, como conversores digitais, suportes para TV e muito mais. Estou aqui para garantir que sua TV funcione perfeitamente e que você tenha os melhores acessórios para o seu conforto.</p>
-        <p style="font-size: 1.8em;">Atendo em Salvador e região, oferecendo um serviço de qualidade e confiança. Entre em contato para saber mais sobre os serviços e produtos disponíveis.</p>
+        <h2 class="text-center mb-4">Sobre Mim</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              Sou Joel, especialista em manutenção de TVs e venda de acessórios.
+              Com anos de experiência, ofereço serviços rápidos e eficientes para
+              todos os tipos de TVs. Além disso, vendo diversos acessórios, como
+              conversores digitais, suportes para TV e muito mais.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="/public/joel.svg"
+              alt="Foto de Joel"
+              class="img-fluid"
+            />
+          </div>
         </div>
-        <div class="col-md-6">
-        <img src="/public/joel.svg" alt="Foto de Joel" class="img-fluid" style="max-width: 100%; height: auto;">
-        </div>
-      </div>
       </div>
     </section>
 
@@ -41,115 +53,37 @@
     <section id="services" class="py-5">
       <div class="container">
         <h2 class="text-center mb-4">Nossos Serviços</h2>
-        <div class="row" id="services-cards">
-          <!-- Cards serão inseridos aqui pelo TypeScript -->
-        </div>
+        <div class="row" id="services-cards"></div>
       </div>
-     
-        <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="/public/img-service/joel1.svg" class="d-block w-100" alt="Imagem 1">
-            </div>
-            <div class="carousel-item">
-              <img src="/public/img-service/joel2.svg" class="d-block w-100" alt="Imagem 2">
-            </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+
+      <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/public/img-service/joel1.svg" class="d-block w-100" alt="Imagem 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="/public/img-service/joel2.svg" class="d-block w-100" alt="Imagem 2" />
+          </div>
         </div>
-      
-        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
     <!-- Products Section -->
     <section id="products" class="py-5 bg-light">
       <div class="container">
-      <h2 class="text-center mb-4">Nossos Produtos</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <img src="/public/suporte-fixo-pro-eletronic.jpg" class="card-img-top" alt="Fone de Ouvido">
-            <div class="card-body">
-            <h5 class="card-title">Suporte para tv fixo</h5>
-            <strong>Marca: Pro Eletronic </strong>
-            <p>MODELO:PQST-1584</p>
-            <p class="card-text hidden">O suporte para TV Universal é ideal para instalação de televisores tela plana em racks, painéis ou paredes..</p>
-            <a href="#" class="btn btn-primary show-more">Saiba mais</a>
-            </div>
-          </div>
-          </div>
-        <div class="col-md-4">
-        <div class="card mb-4">
-          <img src="/public/Conversor-digital-aquario.jpg" class="card-img-top" alt="Conversor Digital">
-          <div class="card-body">
-          <h5 class="card-title">Conversor Digital</h5>
-          <strong>Marca: Aquario</strong>
-            <p>Dtv-9000 Full Hd C/ Hdmi</p>
-          <p class="card-text hidden">Transforme sua TV convencional em uma Smart TV.</p>
-          <a href="#" class="btn btn-primary show-more">Saiba mais</a>
-          </div>
+        <h2 class="text-center mb-4">Nossos Produtos</h2>
+        <div class="row">
+          <!-- Cards Aqui -->
         </div>
-        </div>
-        <div class="col-md-4">
-        <div class="card mb-4">
-          <img src="/public/suporte-para-tv-articulado-um-eixo-pro-eletronic.jpg" class="card-img-top" alt="Suporte de TV">
-          <div class="card-body">
-          <h5 class="card-title">Suporte de TV</h5>
-          <strong>Marca: Pro Eletronic </strong>
-          <p class="card-text hidden">Alta qualidade para instalação de TVs de até 70 polegadas.</p>
-          <a href="#" class="btn btn-primary show-more">Saiba mais</a>
-          </div>
-        </div>
-        </div>
-        <div class="col-md-4">
-        <div class="card mb-4">
-          <img src="/public/suporte-para-tv-de-teto-brasforma.jpg" class="card-img-top" alt="Suporte de Teto">
-          <div class="card-body">
-          <h5 class="card-title">Suporte de Teto</h5>
-          <strong>Marca: Brasforma </strong>
-          <p>TV SBRP150</p>
-          <p class="card-text hidden">Suporte de teto para TV de até 55 polegadas.</p>
-          <a href="#" class="btn btn-primary show-more">Saiba mais</a>
-          </div>
-        </div>
-        </div>
-        <div class="col-md-4">
-        <div class="card mb-4">
-          <img src="/public/suporte-articulado-para-tv-dois-eixos.jpg" class="card-img-top" alt="Antena Digital">
-          <div class="card-body">
-          <h5 class="card-title">Suporte articulado para tv 2 eixos</h5>
-          <strong>Marca: Brasforma </strong>
-          <p>SBRP145</p>
-          <p class="card-text hidden">Suporte Tri-articulado Com Braço Longo 26 A 60 Aquário Cor Preto</p>
-          <a href="#" class="btn btn-primary show-more">Saiba mais</a>
-          </div>
-        </div>
-        </div>
-        <div class="col-md-4">
-        <div class="card mb-4">
-          <img src="/public/cabo-hdmi.jpg" class="card-img-top" alt="Cabo HDMI">
-          <div class="card-body">
-          <h5 class="card-title">Cabo HDMI</h5>
-          <strong>Marca: Ultra HD </strong>
-          <p class="card-text hidden">Cabo HDMI de alta velocidade para melhor qualidade de imagem.</p>
-          <a href="#" class="btn btn-primary show-more">Saiba mais</a>
-          </div>
-        </div>
-        </div>
-      
       </div>
-      </div>
-      <div class="d-flex justify-content-center align-items-center">
-        <div class="text-center">
-          <img src="/public/cartoes.webp" alt="">
-        </div>
-
     </section>
 
     <!-- WhatsApp Button -->
@@ -168,14 +102,10 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-      
       <p class="mb-0">© 2025 Joel TV - Todos os direitos reservados</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="/src/main.ts"></script>
-    <script>
-    
-    </script>
   </body>
 </html>
